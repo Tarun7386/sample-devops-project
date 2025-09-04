@@ -1,7 +1,7 @@
 const fs = require('fs');
 console.log('🧪 Running tests...');
 
-const requiredFiles = ['index.html', 'style.css', 'script.js'];
+const requiredFiles = ['index.html', 'styles.css', 'script.js'];
 let allTestsPassed = true;
 
 requiredFiles.forEach(file => {
